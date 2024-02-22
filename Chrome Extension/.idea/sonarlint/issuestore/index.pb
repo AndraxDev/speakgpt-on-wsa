@@ -1,0 +1,13 @@
+
+:
+
+index.html,f\6\f6013a00b362253c64368d6eebc50ea2131754e2
+8
+popup.js,0\e\0eb7f254729257427b56a71afa8b1f15ab0d004d
+=
+manifest.json,c\a\ca642a22686971b261b60de81d8ff554fdd91e2e
+7
+menu.js,d\6\d608e6c841e1981bde2d8e1e05ca343934113c45
+:
+
+content.js,b\e\be8ebea4978528539776c7fe0f0b4d4012bafc66

@@ -1,0 +1,9 @@
+{
+  "name": "org.teslasoft.assistant",
+  "description": "SpeakGPT Native Messaging Host",
+  "path": "NativeMessagingHost.exe",
+  "type": "stdio",
+  "allowed_origins": [
+    "chrome-extension://pbboofnogicchfbgamhgkchbholgmmoj/"
+  ]
+}

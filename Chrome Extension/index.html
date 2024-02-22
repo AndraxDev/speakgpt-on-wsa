@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Chrome Extension</title>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+        <style>
+            body {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin: 0;
+                background-color: #121212;
+                padding: 16px;
+            }
+
+            .extension {
+                width: 640px;
+            }
+
+            a {
+                text-decoration: none;
+            }
+
+            .btn {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                padding: 16px;
+                border-radius: 16px;
+                background-color: #212121;
+                color: white;
+                text-decoration: none;
+                transition: all 0.3s ease;
+                border: none;
+                cursor: pointer;
+                outline: none;
+            }
+
+            .btn:hover {
+                background-color: #232e23;
+            }
+
+            .btn-icon {
+                width: 32px;
+                height: 32px;
+                margin-right: 16px;
+                border-radius: 32px;
+            }
+
+            .btn-text {
+                font-size: 20px;
+                height: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                text-align: center;
+            }
+
+            .frm {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+
+            .inp {
+                padding: 16px;
+                border-radius: 16px;
+                background-color: #212121;
+                color: white;
+                border: none;
+                outline: none;
+                width: 100%;
+                margin-right: 16px;
+                font-size: 16pt;
+                height: 32px;
+            }
+
+            .send {
+                padding: 16px;
+                border-radius: 16px;
+                background-color: #212121;
+                color: white;
+                border: none;
+                cursor: pointer;
+                outline: none;
+                transition: all 0.3s ease;
+                height: 64px;
+                width: 64px;
+            }
+
+             .material-symbols-outlined {
+                 font-variation-settings:
+                         'FILL' 0,
+                         'wght' 400,
+                         'GRAD' 0,
+                         'opsz' 24
+             }
+        </style>
+    </head>
+    <body>
+        <div class="extension">
+            <h1 style="color: white; text-align: center;">SpeakGPT Quick Prompt Chrome Extension</h1>
+            <br/>
+            <h2 style="color: #cecece; text-align: center; margin: 0; padding: 0; font-size: 16pt;">Hot key: Ctrl+Shift+L</h2>
+            <br/>
+            <form class="frm" id="frm">
+                <input class="inp" id="prompt" placeholder="Quick prompt" autofocus />
+                <button class="send" id="quickPrompt">
+                    <span class="material-symbols-outlined">send</span>
+                </button>
+            </form>
+            <br/>
+            <a href = "sp://open">
+                <div class="btn">
+                    <img class="btn-icon" src="speakgpt.png" alt="SpeakGPT">
+                    <span class="btn-text">Launch SpeakGPT</span>
+                </div>
+            </a>
+
+            <script src="popup.js"></script>
+        </div>
+    </body>
+</html>
