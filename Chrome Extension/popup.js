@@ -5,7 +5,7 @@ function quickPrompt() {
 
     let port = chrome.runtime.connectNative('org.teslasoft.assistant');
 
-    port.postMessage({ text: 'run_batch', arg1: selectedText, arg2: '1' });
+    port.postMessage({ text: 'run_batch', arg1: selectedText, arg2: '0' });
 
     port.onMessage.addListener((response) => {
         console.log("Received from Native Messaging Host: " + JSON.stringify(response));
