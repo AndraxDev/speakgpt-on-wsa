@@ -1,5 +1,9 @@
 # SpeakGPT Google Chrome integration
 
+> [!WARNING]
+>
+> All code in this repository is experiment. Currently SpeakGPT for Windows is deprecated and will be removed starting from release 4.3. Windows version has been replaced with SpeakGPT Web. Learn more info at: https://assistant.teslasoft.org
+
 This repo will allow you to run SpeakGPT on your Windows Computer + Access SpeakGPT directly from Google Chrome
 
 ## Installation
